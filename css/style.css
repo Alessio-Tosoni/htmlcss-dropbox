@@ -93,13 +93,48 @@ margin: auto;}
 
 .loghi{width: 33%;}
 
-.logo{width: 50%;
-height: 150px;
-background-color: blue;}
+.logo-a{width: 50%;
+min-height: 270px;
+background-color: #A2D39B;
+border: #D1E9CD 15px solid;
+}
+.logo-b{width: 50%;
+    min-height: 270px;
+    background-color: #61082B;
+}
+.logo-c{width: 50%;
+    min-height: 270px;
+    background-color: #0093CE;
+}    
+.logo-d{width: 50%;
+    min-height: 270px;
+    background-color: #FF1C1C;
+}    
+.logo-e{width: 50%;
+    min-height: 270px;
+    background-color: #D5001F;
+}
+.logo-f{width: 50%;
+    min-height: 270px;
+    background-color: #B4D0E7;
+}
+.logo-g{width: 50%;
+    min-height: 270px;
+    background-color: #0D2481;
+}
+.logo-h{width: 50%;
+    min-height: 270px;
+    background-color: #FFD830;
+}
+.img-logo{width: 50%;}
+
 
 .testo-scrollabile{width: 33%;
-height: 300px;
+margin: 0 10px;
+height: 500px;
 overflow-y: auto;}
+
+#scroll{font-size: 24px;}
 
 #business{background-color: #B4D0E7;}
 .busin{width: 50%;
