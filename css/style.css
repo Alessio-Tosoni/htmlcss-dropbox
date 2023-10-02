@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    min-height: 80px;
+    z-index: 999;
+}
+
+.jumbotron{
+    background-color: #B4D0E7;
+    max-height: 800px;
+    margin-bottom: 100px;
+}
+
+.container{
+    width: 65%;
+    margin: auto;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.titolo{width: 65%;
+margin: auto;
+padding-top: 40px;}
+
+#jumbo-img{width: 100%;}
+.jumbo-sx{
+    width: 35%;
+    margin: auto;
+}
+
+.btn{
+    border: 1px solid #0061FF;
+    background-color: #0061FF;  
+}
+
+.jumbo-dx{
+    width: 65%;
+   margin: 30px auto -60px auto;
+}
+
+h2{font-size: 50px;}
+
+.radio-selected{
+    border: 2px #0061FF solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+.radio-n-selected{
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.a{
+    width:32%;
+    background-color: blue;
+    min-height: 300px;
+    
+}
+.b{
+    width:32%;
+    background-color: red;
+    min-height: 300px;
+    
+}
+.c{
+    width: 32%;
+    background-color: green;
+    min-height: 300px;
+    
+}
