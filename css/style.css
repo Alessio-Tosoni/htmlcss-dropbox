@@ -16,7 +16,7 @@ header{
 }
 
 .container{
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
 
@@ -42,9 +42,8 @@ padding-top: 40px;}
 .btn{
     border: 1px solid #0061FF;
     background-color: #0061FF;  
-    padding: 10px;
+    padding: 10px 80px;
 }
-
 
 .jumbo-dx{
     width: 65%;
@@ -54,35 +53,25 @@ padding-top: 40px;}
 h2{font-size: 50px;}
 
 .radio-selected{
-    border: 2px #0061FF solid;
+    border: 4px #0061FF solid;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3px;
 }
 .radio-n-selected{
-    border: 2px solid grey;
+    border: 1px solid grey;
     border-radius: 50%;
     padding: 5px;
 }
-
-.a{
-    width:32%;
-    background-color: blue;
-    min-height: 300px;
-    
-}
-.b{
-    width:32%;
-    background-color: red;
-    min-height: 300px;
-    
-}
-.c{
+.tariffa{
     width: 32%;
-    background-color: green;
-    min-height: 300px;
+    min-height: 1082px;
 }
 
-.partner-img{background-image: url(../img/partner.png);}
+.b{background-color: red;}
+
+.c{background-color: green;}
+
+
 
 .team{text-align: center;} 
 
@@ -90,7 +79,7 @@ h2{font-size: 50px;}
 
 #testo{width: 100%;}
 
-.ft{width:30%;
+.ft{width:28%;
 margin: auto;}
 
 .loghi{width: 33%;}
@@ -128,7 +117,8 @@ border: #D1E9CD 15px solid;
     min-height: 270px;
     background-color: #FFD830;
 }
-.img-logo{width: 50%;}
+.img-logo{width: 50%;
+filter: invert(1);}
 
 
 .testo-scrollabile{width: 33%;
@@ -139,9 +129,8 @@ overflow-y: auto;}
 #scroll{font-size: 24px;}
 
 #business{background-color: #B4D0E7;}
-.busin{width: 50%;
+.busin{width: 40%;
 margin: auto;}
-.busine{width: 30%;}
 
 .faq{
     padding: 50px;
