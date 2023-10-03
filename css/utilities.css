@@ -21,11 +21,14 @@
 .pb-24{padding-bottom: 24px;}
 .pv-24{padding: 24px 0;}
 .mtb-25{margin: 25px 0;}
+.mtb-75{margin: 75px auto;}
 .mt-75{margin-top: 75px;}
 .ml-20{margin-left: 20px;}
 .mr-20{margin-right: 20px;}
 /* color */
 .c-wht{color: white;}
+.bg-bl{background-color: blue;}
+.bg-blk{background-color: black;}
 .bor-gry{border: 1px solid grey;}
 /* font */
 .txt-n{text-decoration: none;}
@@ -40,5 +43,14 @@
     top: 0;
     right: 0;
     left: 0;
-
 }
+
+/* width */
+.w40{width: 40%;
+margin: auto;}
+.w60{width: 60%;
+margin: auto;}
+.mh700{min-height: 700px;}
+
+/* img */
+.cov{background-size: cover;}

@@ -43,8 +43,8 @@ padding-top: 40px;}
     border: 1px solid #0061FF;
     background-color: #0061FF;  
     padding: 10px;
-    
 }
+
 
 .jumbo-dx{
     width: 65%;
@@ -93,9 +93,7 @@ h2{font-size: 50px;}
 margin: auto;}
 
 .loghi{width: 33%;}
-
-
-
+ 
 .logo-a{width: 50%;
 min-height: 270px;
 background-color: #A2D39B;
@@ -149,3 +147,4 @@ margin: auto;}
 }
 
 footer{background-color: black;}
+
