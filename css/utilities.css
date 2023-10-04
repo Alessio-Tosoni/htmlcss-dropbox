@@ -15,28 +15,39 @@
 .as-cen{align-self: center;}
 .as-fs{align-self: flex-start;}
 /* padding / margin*/
+.p-8{padding: 8px;}
 .p-12{padding: 12px;}
 .p-16{padding: 16px;}
 .p-24{padding: 24px;}
 .p-30{padding: 30px;}
 .p-60{padding: 60px;}
+.p-120{padding: 120px;}
+.p-180{padding: 180px;}
 .pb-12{padding-bottom: 12px;}
 .pb-24{padding-bottom: 24px;}
-.pv-24{padding: 24px }
+.pb-32{padding-bottom: 32px;}
+.pt-8{padding-top: 8px;}
+.pt-24{padding-top: 24px}
+.pt-60{padding-top: 60px;}
+.pl-8{padding-left: 8px;}
 .pl-12{padding-left: 12px;}
 .pl-16{padding-left: 16px;}
 .pr-12{padding-right: 12px;}
+.pr-16{padding-right: 16px;}
+.po-12{padding: 0 12px;}
 .mb-30{margin-bottom: 30px;}
 .mb-60{margin-bottom: 60px;}
 .mb-160{margin-bottom: 160px;}
 .mt-30{margin-top: 30px ;}
 .mt-75{margin-top: 75px;}
+.mt-90{margin-top: 90px;}
 .ml-20{margin-left: 20px;}
 .mr-20{margin-right: 20px;}
 .pc1{padding: 20px 16px;}
 /* color */
 .c-wht{color: white;}
 .c-blk{color: black;}
+.c-gry{color: grey  ;}
 .c-bl{color: blue;}
 .bg-bl{background-color: blue;}
 .bg-blk{background-color: black;}
@@ -64,6 +75,8 @@
 .w60{width: 60%;}
 .w80{width: 80%;}
 .w100{width: 100%;}
+
+.h100{height: 100%;}
 
 /* img */
 .cov{background-size: cover;}

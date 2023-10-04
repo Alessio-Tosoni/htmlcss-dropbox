@@ -2,16 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     background-color: white;
-    min-height: 80px;
+    min-height: 123px;
     z-index: 999;
 }
 
+.bordi-header{border-bottom: 3px solid transparent;}
+.bordi-header:hover{border-bottom: 3px solid black;
+padding: 43px 16px;}
+/* fine header */
+
+/* inizio jumbotron */
 .jumbotron{
     background-color: #B4D0E7;
-    max-height: 800px;
+    max-height: 850px;
     margin: 80px 0 120px 0;
 }
 
@@ -35,7 +42,7 @@ padding-top: 40px;}
     margin-bottom: 100px;
 }
 .jumbo-sx{
-    width: 35%;
+    width: 30%;
     margin: auto;
 }
 
@@ -43,13 +50,18 @@ padding-top: 40px;}
     border: 1px solid #0061FF;
     background-color: #0061FF;  
     padding: 10px 80px;
+    transition: 1s;
 }
+ 
+.btn:hover{filter: hue-rotate(180deg);}
 
 .jumbo-dx{
-    width: 65%;
-   margin: 30px auto -60px auto;
+    width: 70%;
+   margin: 30px auto -80px auto;
 }
+ /* fine jumbotron */
 
+ /* inizio tariffe */
 h2{font-size: 50px;}
 
 .radio-selected{
@@ -67,74 +79,93 @@ h2{font-size: 50px;}
     min-height: 1082px;
 }
 
-.b{background-color: red;}
-
-.c{background-color: green;}
-
-
+.grey-btn{transition: 1s;}
+.grey-btn:hover{background-color: lightslategray;}
 
 .team{text-align: center;} 
+/* fine tariffe */
 
+/* inizio features */
 .ft-img{background-size: cover;}
 
 #testo{width: 100%;}
 
 .ft{width:28%;
 margin: auto;}
+/* fine features */
 
+/* inizio clienti */
 .loghi{width: 33%;}
  
 .logo-a{width: 50%;
-min-height: 270px;
+min-height: 400px;
 background-color: #A2D39B;
 border: #D1E9CD 15px solid;
 }
 .logo-b{width: 50%;
-    min-height: 270px;
+    min-height: 400px;
     background-color: #61082B;
 }
 .logo-c{width: 50%;
-    min-height: 270px;
+    min-height:  400px;
     background-color: #0093CE;
 }    
 .logo-d{width: 50%;
-    min-height: 270px;
+    min-height:  400px;
     background-color: #FF1C1C;
 }    
 .logo-e{width: 50%;
-    min-height: 270px;
+    min-height:  400px;
     background-color: #D5001F;
 }
 .logo-f{width: 50%;
-    min-height: 270px;
+    min-height:  400px;
     background-color: #B4D0E7;
 }
 .logo-g{width: 50%;
-    min-height: 270px;
+    min-height:  400px;
     background-color: #0D2481;
 }
 .logo-h{width: 50%;
-    min-height: 270px;
+    min-height:  400px;
     background-color: #FFD830;
 }
 .img-logo{width: 50%;
 filter: invert(1);}
 
-
 .testo-scrollabile{width: 33%;
-margin: 0 10px;
-height: 500px;
-overflow-y: auto;}
-
-#scroll{font-size: 24px;}
-
+    margin: 2%;
+    height: 500px;
+    overflow-y: auto;}
+    
+    #scroll{font-size: 32px;}
+    /* fine clienti */
+    
+    /* inizio business */
 #business{background-color: #B4D0E7;}
-.busin{width: 40%;
+.business-sx{width: 30%;
 margin: auto;}
+    /* fine business */
 
+    /* inizio faq */
 .faq{
-    padding: 50px;
+    font-size: 32px;
+    padding:25px 50px;
 }
+.icon{padding-left:20px;}
+
+.bonus-p{opacity: 0;
+font-size: 24px;
+padding: 25px 50px;}
+
+.bonus-faq:hover + .bonus-p{opacity: 1;
+font-size: 24px;
+padding:25px 50px;}
+.bonus-faq:hover .icon{
+    rotate: 180deg;
+    padding: 20px;
+}
+    /* fine faq */
 
 footer{background-color: black;}
 
